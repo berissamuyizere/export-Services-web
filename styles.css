@@ -1,0 +1,254 @@
+.service-offers{
+    text-align: center;
+    background-color:#82bf79 ;
+    padding: 20px;
+}
+.header-content{
+   
+        display: flex;
+        justify-content: center;
+        /* margin-top: 5%; */
+        gap: 18%;
+       
+}
+.navigations{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    
+}
+.navigations a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    color: white;
+}
+header{
+    background-image: url(./images/piowcases.jpeg);
+        background-repeat: no-repeat;
+        /* background-image: wi; */
+        background-size: 100% 100%;
+}
+.rasi-screen-printing{
+ font-size: 30px;
+ text-align: center;
+ color: white;
+}
+ .contact{
+   align-items: center;
+ }
+.contact-button{
+    margin-bottom: 20%;
+    padding: 20px;
+    width: 14%;
+    border-radius: 6px;
+    background-color: #7f9380;
+    border: none;
+}
+.print-with-passion{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    width: 60%;
+    margin-left: 19%;
+}
+.printing-company{
+    text-align: center;
+    font-size: 30px;
+    /* color: white; */
+}
+hr{
+    line-height: 12px;
+}
+.timeless-artistry{
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+}
+.pillow-img{
+    
+}
+ .pillow-img {
+    width: 80%;
+    border-radius: 10%;
+ 
+} 
+.artistry{
+    width: 50%;
+    /* color: white; */
+}
+.Rasi{
+color: #82bf79;
+font-size: 28px;
+}
+.modern{
+    font-size: 50px;
+}
+.rich-heritage{
+    font-size: 20px;
+}
+.button{
+    padding: 20px;
+    background-color: #82bf79;
+    width: 20%;
+    border-radius: 35px;
+    
+}
+.button button{
+    font-size: 25px;
+    background-color: #82bf79;
+    border: none;
+    color: white; 
+}
+.button i{
+    color: white;
+    transform: rotate(-30deg);
+    font-size: 28px;
+}
+.button-contact-us{
+    padding: 20px;
+    /* background-color: #82bf79; */
+    width: 20%;
+    border-radius: 35px;
+    border: 1px solid;
+}
+.button-contact-us button{
+    font-size: 25px;
+    /* background-color: #82bf79; */
+    border: none;
+    /* color: white;  */ 
+}
+.button-contact-us i{
+    /* color: white; */
+    transform: rotate(-30deg);
+    font-size: 28px;
+}
+.buttons{
+    display: flex;
+    gap: 5%;
+}
+
+.cup{
+    width: 10%;
+    /* height: 8%; */
+}
+.better-services{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    background-color: #e6f2e4;
+}
+.better-service{
+    display: flex;
+}
+.screen-printing-technique{
+    text-align: center;
+    font-size: 35px;
+}
+.diverse-techniques{
+    text-align: center;
+}
+.four-color{
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+}
+.arrow-icon{
+    margin-top: 20px;
+    margin-left: 5%;
+    background-color: #e6f2e4;
+    text-align: center;
+    padding: 22px;
+    height: 13%;
+    border-radius: 50%;
+
+}
+.arrow-icon i{
+    margin-top: 19%;
+    font-size: 25px;
+}
+.mart{
+    width: 28vw;
+    height: 85%;
+    border-radius: 30px;
+}
+.traditional-modern{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 3%;
+}
+.four-color p{
+    font-size: 38px;
+}
+.client-praise{
+    margin-top: 10%;
+}
+.raymond-mills{
+    display: flex;
+    gap: 10px;
+}
+.raymond-mills img{
+    width: 35%;
+    height: 57%;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.Raymond-industry{
+    /* margin-bottom: 29px; */
+}
+.raymond{
+    font-size: 27px;
+    font-weight: bold;
+}
+.garment-industry{
+    font-size: 20px;
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 3%;
+}
+#star{
+ color: green;
+}
+.white-pillow-img{
+    width: 40%;
+    border-radius: 5%;
+}
+.arvindi{
+    width: 5%;
+}
+.gap-img{
+    width: 5%;
+}
+.puma{
+    width: 5%;
+}
+.idia{
+    width: 5%;
+}
+.logos{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 8%;
+    margin-top: 4%;
+}
+.best-products{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+.best-products img{
+    width: 25%;
+    border-radius: 15px;
+}
+.bigger-img{
+    width: 80%;
+    
+     display: block;
+     margin: auto;
+    
+}
