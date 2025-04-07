@@ -240,6 +240,7 @@ font-size: 28px;
     display: flex;
     justify-content: center;
     gap: 2%;
+    margin-bottom: 2%;
 }
 .best-products img{
     width: 25%;
@@ -247,8 +248,55 @@ font-size: 28px;
 }
 .bigger-img{
     width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 20px;  
+}
+iframe{
+    margin-left: 10%;
+    border-radius: 20px;
+    position: relative;
+}
+.contact{
+    display: flex;
+    margin-left: 20%;
+    width: 60%;
+}
+.contact i{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.contacts{
+    margin-top: -40%;
+    margin-left: 15%;
+    width: 30%;
+    height: 55%;
+    background-color: rgb(250, 242, 242);
+    position: absolute;
+    border-radius: 20px;
+}
+.contacts p{
+    margin-left: 25%;
+    margin-top: 10%;
     
-     display: block;
-     margin: auto;
-    
+}
+.about-us{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+   
+    color: #c3c3ca;
+    font-size: 25px;
+}
+footer{
+    background-color: #253036;
+}
+.office-contact{
+    display: flex;
+}
+.phone-number{
+    display: flex;
 }
