@@ -1,4 +1,12 @@
-.service-offers{
+ 
+ @font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins-Light.ttf);
+ }
+ body{
+    font-family: poppins;
+ }
+ .service-offers{
     text-align: center;
     background-color:#82bf79 ;
     padding: 20px;
@@ -57,6 +65,7 @@ header{
     border: none;
     margin-left: 40%;
     color: white;
+    font-size: 20px;
 }
 .print-with-passion{
     font-size: 100px;
@@ -96,6 +105,7 @@ font-size: 28px;
 }
 .modern{
     font-size: 50px;
+    font-weight: bold;
 }
 .rich-heritage{
     font-size: 20px;
@@ -142,21 +152,25 @@ font-size: 28px;
 }
 
 .cup{
-    width: 10%;
+    width: 12%;
     /* height: 8%; */
+    background-color: #e6f2e4;
 }
 .better-services{
     display: flex;
     justify-content: center;
     margin-top: 5%;
     background-color: #e6f2e4;
+    padding: 40px;
 }
 .better-service{
     display: flex;
+    gap: 3%;
 }
 .screen-printing-technique{
     text-align: center;
     font-size: 35px;
+    font-weight: bold;
 }
 .diverse-techniques{
     text-align: center;
@@ -192,7 +206,8 @@ font-size: 28px;
     margin-top: 3%;
 }
 .four-color p{
-    font-size: 38px;
+    font-size: 30px;
+    font-weight: bold;
 }
 .client-praise{
     margin-top: 10%;
