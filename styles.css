@@ -2,13 +2,24 @@
     text-align: center;
     background-color:#82bf79 ;
     padding: 20px;
+    color: white;
+    font-size: 25px;
+}
+.volume-icon{
+    color: white;
+    font-size: 25px;
+}
+.rasi{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
 }
 .header-content{
    
         display: flex;
         justify-content: center;
         /* margin-top: 5%; */
-        gap: 18%;
+        gap: 30%;
        
 }
 .navigations{
@@ -44,6 +55,8 @@ header{
     border-radius: 6px;
     background-color: #7f9380;
     border: none;
+    margin-left: 40%;
+    color: white;
 }
 .print-with-passion{
     font-size: 100px;
@@ -314,7 +327,10 @@ footer{
 .line{
     
 }
-@media screen  and (min-width: 344px)  and (max-width: 572px){
+.white-pillow-img{
+    width: 34vw;
+}
+@media screen  and (min-width: 344px)  and (max-width: 768px){
     .header-content{
         display: flex;
         flex-wrap: wrap;
@@ -330,14 +346,12 @@ footer{
         flex-wrap: wrap;
     }
     .client-praise{
-        margin-top: 90%;
+        margin-top: 30%;
     }
     .clients{
         flex-wrap: wrap;
     }
-    .timeless-artistry{
-        flex-wrap: wrap;
-    }
+   
     .logos{
         flex-wrap: wrap;
     }
@@ -351,5 +365,36 @@ footer{
     iframe{
         width: 300px;
     }
-    
+    .mart{
+        width: 95%;
+        height: 55%;
+        margin-top: 7%;
+    }
+    .four-color p{
+        font-size: 25px;
+    }
+    .button{
+        width: 60%;
+    }
+    .button button{
+        font-size: 15px;
+    }
+    .button-contact-us{
+        width: 60%;
+    }
+    .button-contact-us button{
+        font-size:15px ;
+    }
+    .cup{
+        width: 15%;
+    }
+    .better-service{
+        margin-top: 2%;
+    }
+    .header{
+        background-size: 20vw 20vh ;
+    }
+    .print-with-passion{
+        font-size: 40px;
+    }
 }
