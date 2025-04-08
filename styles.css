@@ -286,10 +286,9 @@ iframe{
 .about-us{
     display: flex;
     justify-content: center;
-    gap: 5%;
-   
+    gap: 3%;
     color: #c3c3ca;
-    font-size: 25px;
+    font-size: 18px;
 }
 footer{
     background-color: #253036;
@@ -299,4 +298,58 @@ footer{
 }
 .phone-number{
     display: flex;
+}
+.company-logo{
+    margin-top: 4%;
+    /* margin-left: 2%; */
+}
+.contacts-imformation li{
+    text-decoration: none;
+}
+.copyright{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.line{
+    
+}
+@media screen  and (min-width: 344px)  and (max-width: 572px){
+    .header-content{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .timeless-artistry{
+        flex-wrap: wrap;
+    }
+    .better-services{
+        flex-wrap: wrap;
+    }
+    .traditional-modern{
+        flex-wrap: wrap;
+    }
+    .client-praise{
+        margin-top: 90%;
+    }
+    .clients{
+        flex-wrap: wrap;
+    }
+    .timeless-artistry{
+        flex-wrap: wrap;
+    }
+    .logos{
+        flex-wrap: wrap;
+    }
+    .about-us{
+        flex-wrap: wrap;
+    }
+    .contacts{
+        margin-top: -180%;
+        width: 50%;
+    }
+    iframe{
+        width: 300px;
+    }
+    
 }
